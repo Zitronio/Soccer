@@ -14,7 +14,7 @@ public class League extends Extractor{
 	private String name;
 	private int total_rounds;
 	private int current_round;
-	private int valor;
+	private int valor2;
 	
 	public League(int id, String name, int total_rounds, int current_round) {
 		super();
@@ -103,12 +103,12 @@ public class League extends Extractor{
 		return name;
 	}
 
-	public int getValor() {
-		return valor;
+	public int getValor2() {
+		return valor2;
 	}
 
-	public void setValor(int valor) {
-		this.valor = valor;
+	public void setValor2(int valor) {
+		this.valor2 = valor;
 	}
 	
 	
