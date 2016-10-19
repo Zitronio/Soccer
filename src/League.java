@@ -14,6 +14,7 @@ public class League extends Extractor{
 	private String name;
 	private int total_rounds;
 	private int current_round;
+	private int valor;
 	
 	public League(int id, String name, int total_rounds, int current_round) {
 		super();
@@ -100,6 +101,14 @@ public class League extends Extractor{
 	public String toString() {
 		// TODO Auto-generated method stub
 		return name;
+	}
+
+	public int getValor() {
+		return valor;
+	}
+
+	public void setValor(int valor) {
+		this.valor = valor;
 	}
 	
 	
